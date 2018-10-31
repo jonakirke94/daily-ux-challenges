@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,800');
+
+html, body {
+	min-height: 100%;
+	height: 100%;
+ 	background-image: linear-gradient(to top, rgb(161, 140, 209) 0%, rgb(251, 194, 235)); 
+	padding: 0;
+	margin: 0;
+}
+
+
+nav {
+	display: flex;
+	align-items: center;
+	padding: 1rem 4rem;
+}
+
+nav .nav-logo {
+	margin-right: auto;
+}
+
+nav .nav-logo img {
+	max-width: 30px;
+
+}
+
+.links {
+	margin-left: auto;
+}
+
+.links a {
+	font-family: Montserrat;
+	font-weight: 600;
+	text-decoration: none;
+	padding-right: 2rem;
+	font-size: 1.1rem;
+	color: rgb(255, 248, 248);
+}
+
+.btn-primary {
+	border: none;
+	border-radius: 30px;
+	background-color: white;
+	color: rgb(161, 140, 209);
+	box-shadow: 5px 5px 10px 0 rgba(0,0,0,.2);
+	font-family: Montserrat;
+	font-weight: 600;
+	padding: .9rem 2.3rem;
+	font-size: 1.1rem;
+}
+
+.btn-primary i {
+	padding-right: .5rem;
+}
+
+.hero {
+	display: flex;
+	flex-direction: row;
+	padding: 6rem 10rem;
+	justify-content: center;
+}
+
+h1 {
+	font-family: Montserrat;
+	font-weight: 600;
+	color: white;
+	font-size: 3rem;
+}
+
+h2 {
+	font-family: Montserrat;
+	font-weight: 400;
+	color: white;
+	font-size: 1.5rem;
+}
+
+.info {
+	flex: 1.7;	
+	padding-left: 6rem;
+}
+
+.content {
+	flex: 1;
+}
+
+.read-more {
+	width: 100%;
+	background-image: url('images/curve.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	min-height: 100px;
+}
+
+.btn-circle {
+	border: none;
+	border-radius: 100%;
+	background-color: white;
+	color: rgb(161, 140, 209);
+	box-shadow: 4px 6px 8px 0px rgba(161, 140, 209, .5);
+	font-family: Montserrat;
+	font-weight: 600;
+	font-size: 1.1rem;
+	width: 75px;
+	height: 75px;
+	position: absolute;
+	bottom: -10px;
+}
+
+.btn-circle i {
+	padding-right: .5rem;
+	font-size: 2.5rem;
+	margin-left: 10px;
+}
+
+.main {
+	height: 600px;
+	background-color: white;
+}
