@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,800');
+
+html, body {
+	height: 100%;
+	width: 100%;
+	min-height: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: rgba(0, 0, 0, .6);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrapper {
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 1px 1px rgba(73, 158, 197, .3);
+}
+
+.display {
+	width: 100%;
+	background: linear-gradient(to right, rgb(73, 158, 197), rgb(43, 129, 168)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.display .tabs {
+	padding: 1rem 2rem 1.5rem 2rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	list-style-type: none;
+	color: rgb(230, 222, 222);
+	font-family: Montserrat;
+	font-size: .8rem;
+	opacity: .7;
+
+}
+
+.display .main {
+	font-size: 6rem;
+	color: white;
+	font-family: Montserrat;
+	text-align: right;
+	line-height: 70px;
+	padding-right: 35%;
+}
+
+.display .trail {
+	color: rgb(230, 222, 222);
+	font-family: Montserrat;
+	font-size: 1.2rem;
+	padding-bottom: 1rem;
+	padding-top: .5rem;
+	padding-right: 35%;
+	text-align: right;
+}
+
+.calc-body {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	position: relative;
+}
+
+.keyboard {
+	flex: 3;
+	background: linear-gradient(to left, rgb(64, 137, 172), rgb(68, 115, 146)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	display: flex;
+	flex-direction: row;
+	flex-flow: wrap;
+}
+
+.keyboard div {
+	width: calc(100% / 3);
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-family: Montserrat;
+	font-size: 1.5rem;
+}
+
+.operators {
+	flex: 1;
+	background: linear-gradient(to left, #5891B7, #5BA1C1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.operators div {
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-family: Montserrat;
+	font-size: 1.5rem;
+}
+
+.equal {
+	height: 100px;
+	background: linear-gradient(to right, rgb(73, 158, 197), rgb(43, 129, 168)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	position: absolute;
+	width: 50%;
+	bottom: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color:white;
+	color: white;
+	font-family: Montserrat;
+	font-size: 2rem;
+}
