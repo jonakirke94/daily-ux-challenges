@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+	height: 100%;
+	font-family: Roboto;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100%;
+	width: 100%;
+	background-color: #4C9FE1;
+}
+
+.card {
+	background-color: white;
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	padding-top: 10rem;
+	position: relative;
+}
+
+.card .thumbnail {
+	position: absolute;
+	width: 280px;
+	height: 250px;
+	top: -100px;
+	left: 50%;
+	transform: translateX(-50%);
+	box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),10px 12px 10px 0 rgba(0,0,0,0.09);
+	background-image: url('images/nelly.jpg')
+}
+
+.card .fa-chevron-left {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	font-size: 2rem;
+	color: rgb(223, 210, 210);
+}
+
+.card-body {
+	width: 100%;
+	padding: 0rem 5rem 0rem 5rem;
+}
+
+.card-body .song {
+	display:inline-block;
+	font-weight: 700;
+	font-size: 2rem;
+	margin-bottom: 0;
+}
+
+.card-body .artist {
+	font-size: 1rem;
+	font-weight: 500;
+	color: rgb(192, 184, 184);
+	margin-top: 5px;
+}
+
+.fa-heart {
+	font-size: 1.5rem;
+	padding-left: 20px;
+}
+
+i {
+	color: #4C9FE1;
+}
+
+.player {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	margin-top: 50px;
+}
+
+.op-5 {
+	opacity: .5;
+}
+
+.op-7 {
+	opacity: .7;
+}
+
+.play {
+	font-size: 2rem;
+}
+
+.progress-bar {
+	display: flex;
+	height: 1rem;
+	overflow: hidden;
+	font-size: .75rem;
+	background-color: #e9ecef;
+	border-radius: .25rem;
+	width: 100%;
+}
+
+.bar {
+	color: #fff;
+	text-align: center;
+	white-space: nowrap;
+	background-image: linear-gradient(to right, #007bff, #bed6ee);
+	width: 50%;
+	height: 20px;
+}
+
+.progress {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem;
+}
+
+.progress p {
+	padding: .5rem;
+	font-size: .8rem;
+	font-weight: 700;
+
+}
