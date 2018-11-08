@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,600,400i,700');
+
+body, html {
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+	height: 100%;
+	font-family: Roboto;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.wrapper {
+	width: 100%;
+	height: 100%;
+	background-color: #363B40;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	background-color: #292A2F;
+	width: 450px;
+	padding: 2rem;
+}
+
+.inner {
+	height: 100%;
+	width: 100%;
+	padding: 2rem;
+	background-color: #2D3135;	
+}
+
+.from {
+	font-size: .7rem;
+	color: rgb(163, 154, 154);
+	font-style: italic;
+}
+
+.msg {
+	color: rgb(228, 220, 220);
+	font-weight: 600;
+	line-height: 20px;
+	margin-top: 2px;
+}
+
+.recieved {
+	margin-top: 3rem;
+	max-width: 70%;
+	margin-left: 30%;
+
+}
+
+.sent {
+	max-width: 70%;
+	margin-top: 3rem;
+}
+
+
+.textfield {
+	background-color: #2A2E32;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem;
+}
+
+.fa-plus {
+	font-size: 1.5rem;
+	color: #F5C008;
+}
+
+.textfield p {
+	font-size: 1.2rem;
+	font-weight: 700;
+	text-shadow: 2px 2px #292A2F;
+}
